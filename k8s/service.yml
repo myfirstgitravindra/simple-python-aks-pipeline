@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: simple-python-app-service
+  namespace: simple-python-ns
+spec:
+  type: LoadBalancer
+  selector:
+    app: simple-python-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
