@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello from Ravindra's Azure AKS pipeline!"
+    return "End to End pipeline using AKS and github actions!"
 
 @app.route("/health")
 def health():
