@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: simple-python-app
-          image: ravindraacr2026.azurecr.io/simple-python-app:v1
+          image: IMAGE_PLACEHOLDER
           ports:
             - containerPort: 5000
